@@ -80,7 +80,7 @@
   drone.createPngStream().on("data", function(frame) {
     currentImg = frame;
     recentImgs.push(frame);
-    console.log(recentImgs.length);
+    // console.log(recentImgs.length);
     if(recentImgs.length >= maxRecentImgs) {
       if(flushRecentImgs) {
         flushRecentImgs = false;
