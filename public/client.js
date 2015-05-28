@@ -15,6 +15,10 @@
     alertOnUndefinedState(data.demo.controlState);
   });
 
+  faye.subscribe("/drone/altitude", function(data) {
+    console.log('ALT: ' + data.altitude)
+  }
+
   window.alertOnUndefinedState = function(state) {
     var UNKNOWN_STATE_CLASS;
     UNKNOWN_STATE_CLASS = "unknown-state";
