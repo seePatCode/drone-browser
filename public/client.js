@@ -16,8 +16,8 @@
   });
 
   faye.subscribe("/drone/altitude", function(data) {
-    console.log('ALT: ' + data.altitude)
-  }
+    lastAltitudePoint= data.altitude;
+  });
 
   window.alertOnUndefinedState = function(state) {
     var UNKNOWN_STATE_CLASS;
@@ -174,6 +174,8 @@
     faye.publish("/drone/set_capture_limit", ev.target.value);
   });
 
+  var lastAltitudePoint=0;
+
   var n = 40,
       random = d3.random.normal(0, .2),
       data = d3.range(0).map(random);
@@ -226,7 +228,7 @@
   function tick() {
 
     // push a new data point onto the back
-    data.push(.6);
+    data.push(lastAltitudePoint);
 
     // redraw the line, and slide it to the left
     path
