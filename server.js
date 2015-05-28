@@ -46,6 +46,16 @@
     return typeof drone[name = cmd.action] === "function" ? drone[name](cmd.speed) : void 0;
   });
 
+  socket.subscribe("/drone/capture", function(cmd) {
+    flushRecentImgs = true;
+    return console.log("move", cmd);
+  });
+
+  socket.subscribe("/drone/set_capture_limit", function(cmd) {
+    maxRecentImgs = cmd;
+    return console.log("set_capture_limit", cmd);
+  });
+
   socket.subscribe("/drone/animate", function(cmd) {
     console.log('animate', cmd);
     return drone.animate(cmd.action, cmd.duration);
@@ -67,7 +77,7 @@
   });
 
   currentImg = null;
-  flushRecentImgs = true;
+  flushRecentImgs = false;
   maxRecentImgs = 10;
   recentImgs = [];
 
@@ -84,6 +94,7 @@
     // console.log(recentImgs.length);
     if(recentImgs.length >= maxRecentImgs) {
       if(flushRecentImgs) {
+        // console.log('flushRecentImgs');
         flushRecentImgs = false;
         canvas = new Canvas(640, 360);
         ctx = canvas.getContext('2d');
@@ -101,32 +112,9 @@
         }
         encoder.finish();
       } else {
-        recentImgs.shift();
-      }
-    }
-
-    recentImgs.push(frame);
-    console.log(recentImgs.length);
-    if(recentImgs.length >= maxRecentImgs) {
-      if(flushRecentImgs) {
-        flushRecentImgs = false;
-        canvas = new Canvas(640, 360);
-        ctx = canvas.getContext('2d');
-        encoder = new GIFEncoder(640, 360);
-        encoder.createReadStream().pipe(fs.createWriteStream('myanimated.gif'));
-        encoder.start();
-        encoder.setRepeat(0);   // 0 for repeat, -1 for no-repeat
-        encoder.setDelay(0);  // frame delay in ms
-        encoder.setQuality(10); // image quality. 10 is default.
-        while(recentImgs.length) {
-          img = new Image;
-          img.src = recentImgs.shift();
-          ctx.drawImage(img, 0, 0, img.width, img.height);
-          encoder.addFrame(ctx);
+        while(recentImgs.length >= maxRecentImgs) {
+          recentImgs.shift();
         }
-        encoder.finish();
-      } else {
-        recentImgs.shift();
       }
     }
 
