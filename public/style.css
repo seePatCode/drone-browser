@@ -16,7 +16,7 @@ body {
 }
 #stats {
     position: absolute;
-    bottom: 20px; 
+    top: 100px;
     right: 20px;
     font-size: 26px;
 }
@@ -38,4 +38,21 @@ body {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: blink;
     -webkit-animation-timing-function: ease;
+}
+
+svg {
+    font: 10px sans-serif;
+}
+
+.line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
