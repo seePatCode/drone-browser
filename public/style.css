@@ -26,3 +26,16 @@ body {
 .dropdown-menu {
     text-align: left;
 }
+
+@-webkit-keyframes 'blink' {
+    0% { background: rgba(255,0,0,0.5); }
+    50% { background: rgba(255,0,0,0); }
+    100% { background: rgba(255,0,0,0.5); }
+}
+.unknown-state {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease;
+}

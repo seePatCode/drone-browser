@@ -6,6 +6,15 @@ faye.subscribe "/drone/navdata",  (data) ->
     $("#" + type).html(Math.round(data.demo[type], 4))    
   #$("#cam").css("-webkit-transform": "rotate(" + data.demo.leftRightDegrees + "deg)")
   showBatteryStatus(data.demo.batteryPercentage)
+  alertOnUndefinedState(data.demo.controlState)
+
+window.alertOnUndefinedState = (state) ->
+  UNKNOWN_STATE_CLASS = "unknown-state"
+  if(state == undefined)
+    $("body").addClass(UNKNOWN_STATE_CLASS)
+  else
+    $("body").removeClass(UNKNOWN_STATE_CLASS)
+
 
 window.showBatteryStatus = (batteryPercentage) ->
   $("#batterybar").width("" + batteryPercentage + "%")
@@ -49,9 +58,11 @@ $(document).keyup (ev) ->
   faye.publish "/drone/drone", { action: 'stop' }
 
 $("*[data-action]").on "mousedown", (ev) ->
+  console.log($(@).attr("data-action"))
   faye.publish "/drone/" + $(@).attr("data-action"), action: $(@).attr("data-param"), speed: 0.3, duration: 1000*parseInt($("#duration").val())
 
 $("*[data-action]").on "mouseup", (ev) ->
   faye.publish "/drone/move", action: $(@).attr("data-param"), speed: 0 if $(@).attr("data-action") == "move"
 
 $("*[rel=tooltip]").tooltip();
+

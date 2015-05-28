@@ -11,6 +11,8 @@ app.configure ->
   app.use("/components", express.static(path.join(__dirname, 'components')))
 server = require("http").createServer(app)
 
+DEFAULT_HZ = 5
+
 new faye.NodeAdapter(mount: '/faye', timeout: 45).attach(server)
 socket = new faye.Client("http://localhost:#{app.get("port")}/faye")
 
@@ -22,6 +24,10 @@ socket.subscribe "/drone/animate", (cmd) ->
   console.log('animate', cmd)
   drone.animate(cmd.action, cmd.duration)
 
+socket.subscribe "/drone/animateleds", (cmd) ->
+  console.log('animateleds', cmd)
+  drone.animateLeds(cmd.action, DEFAULT_HZ, cmd.duration / 1000.0)
+
 socket.subscribe "/drone/drone", (cmd) ->
   console.log('drone command: ', cmd)
   drone[cmd.action]?()
@@ -31,6 +37,7 @@ server.listen app.get("port"), ->
 
 currentImg = null
 drone.on 'navdata', (data) ->
+  console.log data
   socket.publish "/drone/navdata", data
 
 imageSendingPaused = false

@@ -5,13 +5,39 @@
     <link href="components/bootstrap/css/bootstrap.min.css" rel="stylesheet"></link>
     <link href="style.css" rel="stylesheet"></link>
 </head>
-<body>
+<body class="unknown-states">
     <div class="buttons">
         <div class="btn-toolbar">
             <div class="input-append btn-group">
                 <button class="btn btn-success" data-action="drone" data-param="takeoff"><i class="icon-play icon-white"></i> takeoff</button>
                 <button class="btn btn-warning" data-action="drone" data-param="land"><i class="icon-stop icon-white"></i> land</button>
                 <button class="btn btn-danger" data-action="drone" data-param="disableEmergency"><i class="icon-wrench icon-white"></i> recover</button>            
+            </div>
+            <div class="input-append btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Animate LEDs <span class="caret"></span></button>
+                <ul class="dropdown-menu" id="animate-led-container">
+                    <li data-action="animateleds" data-param="blinkGreenRed"><a href="#">blinkGreenRed</a></li>
+                    <li data-action="animateleds" data-param="blinkGreen"><a href="#">blinkGreen</a></li>
+                    <li data-action="animateleds" data-param="blinkRed"><a href="#">blinkRed</a></li>
+                    <li data-action="animateleds" data-param="blinkOrange"><a href="#">blinkOrange</a></li>
+                    <li data-action="animateleds" data-param="snakeGreenRed"><a href="#">snakeGreenRed</a></li>
+                    <li data-action="animateleds" data-param="fire"><a href="#">fire</a></li>
+                    <li data-action="animateleds" data-param="standard"><a href="#">standard</a></li>
+                    <li data-action="animateleds" data-param="red"><a href="#">red</a></li>
+                    <li data-action="animateleds" data-param="green"><a href="#">green</a></li>
+                    <li data-action="animateleds" data-param="redSnake"><a href="#">redSnake</a></li>
+                    <li data-action="animateleds" data-param="blank"><a href="#">blank</a></li>
+                    <li data-action="animateleds" data-param="rightMissile"><a href="#">rightMissile</a></li>
+                    <li data-action="animateleds" data-param="leftMissile"><a href="#">leftMissile</a></li>
+                    <li data-action="animateleds" data-param="doubleMissile"><a href="#">doubleMissile</a></li>
+                    <li data-action="animateleds" data-param="frontLeftGreenOthersRed"><a href="#">frontLeftGreenOthersRed</a></li>
+                    <li data-action="animateleds" data-param="frontRightGreenOthersRed"><a href="#">frontRightGreenOthersRed</a></li>
+                    <li data-action="animateleds" data-param="rearRightGreenOthersRed"><a href="#">rearRightGreenOthersRed</a></li>
+                    <li data-action="animateleds" data-param="rearLeftGreenOthersRed"><a href="#">rearLeftGreenOthersRed</a></li>
+                    <li data-action="animateleds" data-param="leftGreenRightRed"><a href="#">leftGreenRightRed</a></li>
+                    <li data-action="animateleds" data-param="leftRedRightGreen"><a href="#">leftRedRightGreen</a></li>
+                    <li data-action="animateleds" data-param="blinkStandard"><a href="#">blinkStandard</a></li>
+                </ul>
             </div>
             <div class="input-append btn-group">
                 <button class="btn dropdown-toggle" data-toggle="dropdown">Animations <span class="caret"></span></button>
