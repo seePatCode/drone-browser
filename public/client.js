@@ -16,6 +16,7 @@
   });
 
   faye.subscribe("/drone/altitude", function(data) {
+    console.log(data);
     lastAltitudePoint= data.altitude;
   });
 
@@ -174,11 +175,11 @@
     faye.publish("/drone/set_capture_limit", ev.target.value);
   });
 
-  var lastAltitudePoint=0;
+  var lastAltitudePoint=10;
 
   var n = 40,
       random = d3.random.normal(0, .2),
-      data = d3.range(0).map(random);
+      data = d3.range(n).map(random);
 
   var margin = {top: 20, right: 20, bottom: 20, left: 40},
       width = 960 - margin.left - margin.right,

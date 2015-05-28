@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed42715-97e5-4d62-b01f-04630b49b2c5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/coffee" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Canvas.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Canvas.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasGradient.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasGradient.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasPattern.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasPattern.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasRenderingContext2d.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/CanvasRenderingContext2d.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/FontFace.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/FontFace.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Image.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/Image.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/ImageData.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/ImageData.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/PixelArray.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/PixelArray.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas.node" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/canvas.node" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/init.o" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/obj.target/canvas/src/init.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Canvas.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Canvas.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasGradient.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasGradient.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasPattern.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasPattern.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasRenderingContext2d.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/CanvasRenderingContext2d.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/FontFace.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/FontFace.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Image.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/Image.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/ImageData.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/ImageData.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Makefile" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/PixelArray.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/PixelArray.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/canvas.target.mk" afterPath="$PROJECT_DIR$/node_modules/canvas/build/canvas.target.mk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client.js" afterPath="$PROJECT_DIR$/public/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/color.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/color.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/config.gypi" afterPath="$PROJECT_DIR$/node_modules/canvas/build/config.gypi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/init.o.d" afterPath="$PROJECT_DIR$/node_modules/canvas/build/Release/.deps/Release/obj.target/canvas/src/init.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/canvas/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/node_modules/canvas/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/package.json" afterPath="$PROJECT_DIR$/node_modules/faye/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gifencoder/package.json" afterPath="$PROJECT_DIR$/node_modules/gifencoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rx/package.json" afterPath="$PROJECT_DIR$/node_modules/rx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drone-browser.iws" />
@@ -25,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36914602">
+              <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -48,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3653846">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -62,8 +108,10 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-26.5">
-              <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
-              <folding />
+              <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,9 +157,10 @@
         <option value="$PROJECT_DIR$/server.coffee" />
         <option value="$PROJECT_DIR$/public/client.coffee" />
         <option value="$PROJECT_DIR$/public/style.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/client.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -547,12 +596,12 @@
       <option name="number" value="Default" />
       <updated>1432822133548</updated>
       <workItem from="1432822135657" duration="1294000" />
-      <workItem from="1432827934659" duration="8465000" />
+      <workItem from="1432827934659" duration="9565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9759000" />
+    <option name="totallyTimeSpent" value="10859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1399" height="877" extended-state="6" />
@@ -626,7 +675,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="87" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="87" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,14 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.5">
-          <caret line="113" column="56" selection-start-line="113" selection-start-column="56" selection-end-line="113" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17307693">
@@ -694,18 +737,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/public/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/client.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3653846">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-26.5">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36914602">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding />
         </state>
       </provider>

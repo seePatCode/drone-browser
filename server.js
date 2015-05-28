@@ -98,13 +98,14 @@
     return this
       .pluck(field)
       .map(function (data) {
-        return data.toFixed(1);
+          console.log(data);
+        return data!=undefined ? data.toFixed(1): 0;
       })
       .distinctUntilChanged();
   };
 
   demoDataStream
-    .smooth('altitude')
+    .smooth('altitudeMeters')
     .subscribe(function (altitude) {
       socket.publish("/drone/altitude", {
         altitude: altitude
