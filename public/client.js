@@ -160,13 +160,23 @@
         speed: 0
       });
     }
+    if ($(this).attr("data-action") === "capture") {
+      return faye.publish("/drone/capture", {
+        action: $(this).attr("data-param")
+      });
+    }
   });
 
   $("*[rel=tooltip]").tooltip();
 
+  $("#capture_duration").on("change", function(ev) {
+    console.log('capture_duration', ev);
+    faye.publish("/drone/set_capture_limit", ev.target.value);
+  });
+
   var n = 40,
       random = d3.random.normal(0, .2),
-      data = d3.range(n).map(random);
+      data = d3.range(0).map(random);
 
   var margin = {top: 20, right: 20, bottom: 20, left: 40},
       width = 960 - margin.left - margin.right,
@@ -177,7 +187,7 @@
       .range([0, width]);
 
   var y = d3.scale.linear()
-      .domain([-1, 1])
+      .domain([0, 20])
       .range([height, 0]);
 
   var line = d3.svg.line()
