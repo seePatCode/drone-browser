@@ -156,9 +156,19 @@
         speed: 0
       });
     }
+    if ($(this).attr("data-action") === "capture") {
+      return faye.publish("/drone/capture", {
+        action: $(this).attr("data-param")
+      });
+    }
   });
 
   $("*[rel=tooltip]").tooltip();
+
+  $("#capture_duration").on("change", function(ev) {
+    console.log('capture_duration', ev);
+    faye.publish("/drone/set_capture_limit", ev.target.value);
+  });
 
   var n = 40,
       random = d3.random.normal(0, .2),
